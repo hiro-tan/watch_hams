@@ -9,7 +9,7 @@ from linebot import LineBotApi
 from linebot.models import TextSendMessage
 
 spreadsheet_id = os.getenv('SPREADSHEET_ID')
-RECORD_COUNT = 60
+RECORD_COUNT = 720
 
 DHT_TYPE = Adafruit_DHT.DHT22
 DHT_PIN = 4
